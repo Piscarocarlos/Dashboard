@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("../fonts/bootstrap-icons.woff"), url("../fonts/bootstrap-icons.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: .98em;
+}
+
+.sidebar {
+    width: 270px;
+    background-color: #064372;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 14px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #0880B4;
+    border-radius: 7px;
+    border: 3px solid #064372;
+}
+
+.sidebar .sidebar-info {
+    text-align: center;
+}
+
+.sidebar .sidebar-info img {
+    border-radius: 50%;
+}
+
+.sidebar .sidebar-info h3 {
+    color: white;
+    margin-top: 7px;
+    font-size: 1.2em;
+}
+
+.sidebar .sidebar-info a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.sidebar .sidebar-menu {
+    margin-top: 30px;
+}
+
+.sidebar .sidebar-menu ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+
+.sidebar .sidebar-menu ul {
+    list-style: none;
+}
+
+.sidebar .sidebar-menu ul li {
+    border-bottom: 2px solid #065191;
+    padding: 15px 0;
+}
+
+.sidebar .sidebar-menu ul li a span {
+    margin-left: 10px;
+}
+
+.sidebar .sidebar-menu ul li:hover {
+    background-color: #0880B4;
+}
